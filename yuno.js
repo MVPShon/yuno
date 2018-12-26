@@ -43,4 +43,4 @@ yuno.on("message", message => {
         return;
     }
 })
-yuno.login("NTI2OTU0NTg1NjcyMTIyNDA5.DwMt7A.LxtPxQKxYDU3x04lARIjuRwQDpE");
+yuno.login(process.env.BOT_TOKEN);
