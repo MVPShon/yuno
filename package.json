@@ -1,0 +1,29 @@
+{
+  "name": "yuno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yuno.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MVPShon",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "hentaipic": "^1.0.1",
+    "kaori": "^1.2.0",
+    "moment": "^2.23.0",
+    "nodemon": "^1.18.9",
+    "random-puppy": "^1.1.0",
+    "reddit-memes": "^1.0.8",
+    "reddit4k": "^1.0.1",
+    "redditasses": "^1.0.0",
+    "redditthighs": "^1.0.0",
+    "reddittits": "^1.0.0",
+    "yuredditbdsm": "^1.0.0",
+    "yuredditecchi": "^1.0.0",
+    "yuredditgay": "^1.0.1",
+    "yuredditlesbians": "^1.0.4",
+    "yureddityaoi": "^1.0.0"
+  }
+}
