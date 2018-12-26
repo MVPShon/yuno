@@ -37,7 +37,7 @@ yuno.on("message", message => {
     if(!message.content.startsWith(prefix)) return;
 
     try {
-        let commandFile = require(`./Commands/${cmd}.js`);
+        let commandFile = require(`./commands/${cmd}.js`);
         commandFile.run(yuno, message, args, prefix);
     } catch (e) {
         return;
