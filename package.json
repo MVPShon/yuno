@@ -12,6 +12,7 @@
     "discord.js": "^11.4.2",
     "hentaipic": "^1.0.1",
     "kaori": "^1.2.0",
+    "mal-scraper": "^2.4.5",
     "moment": "^2.23.0",
     "nodemon": "^1.18.9",
     "random-puppy": "^1.1.0",
