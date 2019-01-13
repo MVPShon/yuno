@@ -6,7 +6,7 @@ if(colors.indexOf(args[0]) > "-1") {
 
 //If it is one of those colors 
 
-    let role = message.guild.roles.find(r => r.name == args[1]);
+    let role = message.guild.roles.find(r => r.name == args[0]);
     if (message.member.roles.has(role.id)) return message.member.removeRole(role.id, message.channel.send("Role Removed."));
     
     message.member.addRole(role)
