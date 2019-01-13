@@ -9,7 +9,7 @@ let seconds = Math.round(totalSeconds % 60);
 let uptime = `${hours} hours, ${minutes} minutes and ${seconds} second(s).`;
 let embed = new Discord.RichEmbed()
     .setAuthor(`Generated Stats`)
-    .setColor(0xff6464)
+    .setColor(0x8600b3)
     .addField("Name", yuno.user.tag, true)
     .addField("Bot Owner", yuno.users.get("168865955940794368").tag, true)
     .addField(`Servers `, yuno.guilds.size, true)
