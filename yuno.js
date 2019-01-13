@@ -22,7 +22,7 @@ yuno.on("ready", async () => {
     ]
 
     console.log("Yuno Gasai is ready to go!")
-    yuno.channels.get("527188297261252613").send(`${yuno.user.username} has just restarted!
+    yuno.channels.get("527188297261252613").send(`${yuno.user.username} has just restarted!`)
     setInterval(function() {
     let status = Math.floor((Math.random() * statuses.length));
     yuno.user.setActivity(statuses[status], {
