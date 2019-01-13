@@ -13,10 +13,10 @@ let embed = new Discord.RichEmbed()
     .addField("Name", yuno.user.tag, true)
     .addField("Bot Owner", yuno.users.get("168865955940794368").tag, true)
     .addField(`Servers `, yuno.guilds.size, true)
-    .addField(`Users `, yunoe.users.size, true)
+    .addField(`Users `, yuno.users.size, true)
     .addField("Uptime", uptime)
     .addField("Ping", new Date().getTime() - message.createdTimestamp + " ms.")
     .addField("Description", "A Yuno Gasai themed bot for Excalibur's Discord!")
-    .setThumbnail(eyuno.user.displayAvatarURL)
+    .setThumbnail(yuno.user.displayAvatarURL)
 message.channel.send(embed);
 }
